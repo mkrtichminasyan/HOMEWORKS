@@ -1,0 +1,44 @@
+#all {
+    width: 200px;
+    background-color: #faebd7;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#all > div {
+    margin: 5px 0;
+}
+
+#one {
+    width: 48%;  
+    text-align: center;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    width: 50%;
+    background-color: rgb(68, 66, 66);
+    color: white; 
+    padding: 5px;
+    right: 0;
+    /* border: 0 solid transparent; */
+}
+button:hover {
+    cursor: pointer;
+}
+
+#two {
+    width: 80%;
+    font-size: 12px;
+    border: 1px solid black;
+}
+
+#three {
+    width: 40%;
+    font-size: 10px;
+    border: 1px solid black;
+}
