@@ -1,0 +1,52 @@
+/* main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btn {
+    color: #ba4865;
+    background-color: #ee82ee;
+    border: 1px solid #ba4865;
+    padding: 7px 10px;
+}
+
+#btn:hover {
+    cursor: pointer;
+}
+
+img {
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+a {
+    color: #ba4865;
+    text-decoration: none;
+} */
+
+
+/* arajadranq */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main > div {
+    border: 1px solid black;
+    height: 50px;
+}
+#one, #two, #three {
+    width: 200px;
+    background-color: darksalmon;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+}
+#next-1, #prev-1, #next-2, #prev-2 {
+    top: 17px;
+    font-size: 20px;
+}
