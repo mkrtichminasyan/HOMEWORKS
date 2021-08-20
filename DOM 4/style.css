@@ -1,0 +1,38 @@
+.all {
+    width: 150px;
+    height: 300px;
+    background-color: black;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.colors {
+    background-color: darkgray;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+/* .red {
+    background-color: red;
+} */
+/* .yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+} */
+main {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+.poch {
+    width: 20px;
+    height: 400px;
+    background-color: black;
+    margin: 0 auto;
+}
